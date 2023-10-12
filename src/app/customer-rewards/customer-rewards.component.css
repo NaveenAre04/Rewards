@@ -1,0 +1,30 @@
+/* customer-rewards.component.css */
+
+/* Define styles for the entire component */
+.customer-rewards {
+  font-size: 16px;
+  background-color: #f0f0f0;
+}
+
+/* Define styles for specific elements within the component */
+.header {
+  font-weight: bold;
+  text-align: center;
+}
+
+.customer-info {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Define styles for specific CSS classes */
+.special-text {
+  color: red;
+}
+
+/* Define styles for specific HTML elements or IDs */
+#total-points {
+  font-size: 20px;
+  font-weight: bold;
+}

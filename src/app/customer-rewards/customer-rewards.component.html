@@ -1,0 +1,18 @@
+<p>customer-rewards works!</p>
+
+<div>
+  <label for="customerIdInput">Enter Customer ID: </label>
+  <input [(ngModel)]="customerId" id="customerIdInput" type="number" placeholder="Customer ID">
+  <button (click)="fetchCustomerRewards()">Fetch Rewards</button>
+</div>
+
+<div *ngIf="rewardsData">
+  <h2>Customer Rewards</h2>
+  <p>Customer ID: {{ customerId }}</p>
+  <p>Last Month Rewards: {{ rewardsData.lastMonthRewardPoints }}</p>
+  <p>Last Second Month Rewards: {{ rewardsData.lastSecondMonthRewardPoints }}</p>
+  <p>Last Third Month Rewards: {{ rewardsData.lastThirdMonthRewardPoints }}</p>
+  <p>Total Rewards: {{ rewardsData.totalRewards }}</p>
+</div>
+
+
